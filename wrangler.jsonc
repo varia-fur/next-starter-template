@@ -15,5 +15,14 @@
 	"observability": {
 		"enabled": true
 	},
-	"upload_source_maps": true
+	"upload_source_maps": true,
+	"durable_objects": {
+		"bindings": [
+			{
+				"name": "TICKET_MANAGER",
+				"class_name": "TicketManager",
+				"script_name": "next-starter-template"
+			}
+		]
+	}
 }
